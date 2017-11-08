@@ -17,8 +17,7 @@ int main () {
 		cout << "   Masukkan lebarnya   : ";
 		cin >> l;
 		L = p*l;
-		cout << "   Luas persegi panjang : "<< L<<endl;
-		
+		cout << "   Luas persegi panjang : "<< L<<endl;	
 }
 else if (bidang == 'S' || bidang == 's') {
 		cout << "   Mengitung luas segitiga \n";	
@@ -28,7 +27,11 @@ else if (bidang == 'S' || bidang == 's') {
 		cin >> t;
 		L = 0.5*a*t;
 		cout << "   Luas segitiga: "<< L<<endl;
-}
+		}	
+		else{
+		cout<<"Maaf, Anda Salah Memilih"<<endl;
+	}
+
 }
 	
 		
